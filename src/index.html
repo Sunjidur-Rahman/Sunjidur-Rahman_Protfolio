@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+  <!-- Tailwind css -->
+  <link href="./output.css" rel="stylesheet">
+  <!-- custom css -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Font awesome css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">   
+</head>
+<body class="bg-black text-white overflow-x-hidden " style="font-family: Zen Dots; ">
+  <header id="header" class=" w-full h-[100vh]  bg bg-[url('../img/bg.png')] bg-no-repeat bg-cover  border-[#FF5B15] border-b-4  mb-28 "> <!--mb-28-->
+    <!-- nav bar section  -->
+    <div class="fixed top-0 z-50 w-full">
+      <div id="navbar" class="absolute top-0 left-0 w-full h-full bg-transparent  z-10"></div>
+      <nav  class="relative flex justify-between p-6 z-20  ">
+        <div>
+            <p class="text-1xl text-[#FF5B15]">Portfolio</p>
+        </div>
+        <div>
+            <ul class="flex justify-between gap-16 text-[14px] ">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+
+    </div>
+      <!-- Hero section  -->
+      <section id="home " class="h-full">
+        <div class=" h-full flex justify-center items-center max-sm:flex-col max-sm:gap-20">
+          <div><img class="w-80 max-sm:w-[500px] mr-5 fade-reveal  " src="/img/Sunjid Image.jpg" alt=""></div>
+        <div class="fade-reveal max-sm:text-center">
+          <h1 class="text-[48px] max-sm:text-[70px] ">SUNJIDUR <br><span class="text-[76px] max-sm:text-[100px] text-[#FF5B15]">RAHMAN</span></h1>
+          <p class="text-2xl ">A front-end Web Developer</p>
+        </div>
+        </div>        
+      </section>
+  </header>
+  <!-- About section  -->
+  <section id="about" class="mb-24 w-screen lg:px-10">
+      <h2 class="text-center text-4xl  text-[#FF5B15]">About Myself</h2>
+
+      <div class="flex justify-center items-center gap-10 mt-28 max-sm:flex-col max-sm:text-center ">
+        <div>
+          <h2 class="text-[54px]">SUNJIDUR <br><span class="text-[64px] text-[#FF5B15]">RAHMAN</span></h2></div>
+        <div class="w-[600px] text-1xl max-sm:text-3xl">
+          <p>I'm a passionate front-end developer with a knack for creating engaging and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I thrive on transforming design concepts into responsive, interactive applications. </p>
+        </div>
+      </div>
+      <div class=" mt-[150px]  bg-[#0F0F0F] w-[950px] max-sm:w-[870px] h-[315px] mx-auto  rounded-t-[50px] border-0 border-b-4 border-[#FF5B15]  ">
+        <div class="flex flex-col justify-evenly items-center h-full">
+          <div>
+            <h2 class="text-center text-2xl  text-white"> skills </h2>
+          </div>
+          <div class="flex justify-center items-center h-2/3 gap-28">
+            <div class=" w-32 max-sm:w-28 h-32 flex justify-center items-center ">
+              <img class="w-20 hover:w-28 transition-all duration-300 ease-in-out " src="../img/HTML.png" alt="">
+            </div>
+            
+             <div class=" w-32 max-sm:w-28 h-32 flex justify-center items-center  ">
+              <img class="w-20 hover:w-28 transition-all duration-300 ease-in-out" src="../img/CSS.png" alt="">
+             </div>
+             <div class=" w-32 max-sm:w-28 h-32 flex justify-center items-center  ">
+              <img class="w-20 hover:w-28 transition-all duration-300 ease-in-out" src="../img/tailwind.png" alt="">
+             </div>
+             <div class=" w-32 max-sm:w-28 h-32 flex justify-center items-center  ">
+              <img class="w-20 hover:w-28 transition-all duration-300 ease-in-out" src="../img/JS.png" alt=""> 
+             </div>
+            
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Projects section -->
+   <section id="works" class="">
+      <h2 class="text-center text-4xl mb-24 text-[#FF5B15]">Works</h2>
+      <div class="group border-[#FF5B15] mt-10 hover:border-l-4 flex items-center gap-10  ml-32 w-[780px] hover:bg-gradient-to-r from-[#942c005f] bg-[length:200%_200%] hover:animate-gradient-move-from-l  transition-all duration-75">
+        <div class=" w-96 pl-5">
+          <h2 class=" font-tusker text-[60px] tracking-widest">E commerce Website Madkoffee</h2>
+          <p class="text-[20px] tracking-widest " >Fully fledged, ready to deploy e-commerse website, backend done with react and node.js</p>
+        </div>
+        <div class=" transition-all duration-500  group-hover:translate-x-10  " >
+          <img class="w-80 p-2 group-hover:w-80" src="/img/Madkoffee.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="w-full flex justify-end">
+        <div class=" flex   items-center mr-32 group border-[#FF5B15] mt-10 hover:border-r-4 gap-10 hover:bg-gradient-to-l  from-[#942c005f] bg-[length:200%_200%] hover:animate-gradient-move-from-r transition-all duration-500  "><!-- group border-[#FF5B15] mt-10 hover:border-r-4 flex justify-end items-center  w-[780px]  ml-[321px] mr-32 hover:bg-gradient-to-l  from-[#942c005f] bg-[length:200%_200%] hover:animate-gradient-move-from-r transition-all duration-500 -->
+        
+          <div class=" transition-all duration-500  group-hover:-translate-x-10" >
+            <img class="w-80 p-2 group-hover:w-80" src="/img/Dental Care.jpg" alt="">
+          </div>
+          
+          <div class=" w-96 pl-5">
+            <h2 class=" font-tusker text-[60px] tracking-widest">Unique Dental Care</h2>
+            <p class="text-[20px] tracking-widest " >Unique Dental Care provides quality dental services with a gentle, personalized approach. Your comfort and smile are our top priorities. </p>
+          </div>
+          
+        </div>
+      </div>
+   </section>
+    <section id="contact" class="bg-[#FF5B15]">
+      <h1 class="text-center text-4xl pt-16  mt-24 mb-10  text-black">Contact </h1>
+      
+      <div class="flex justify-between items-center mx-40  mt-24 pb-24">
+        <div class="text-black">
+          <h4 class="text-2xl ">SUNJIDUR RAHMAN</h4>
+          <p>A front-web developer</p>
+        </div>
+        <div class="text-4xl flex gap-10">
+          <i class="fa-brands fa-square-facebook text-black"></i>
+          <i class="fa-brands fa-square-instagram text-black"></i>
+          <i class="fa-solid fa-envelope text-black"></i>
+        </div>
+      </div>
+      <hr class="pb-10  border-black">
+
+    </section>
+  <script src="./index.js"></script>
+</body>
+</html>

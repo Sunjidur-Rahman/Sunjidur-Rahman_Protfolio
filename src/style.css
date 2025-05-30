@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 70px; /* Adjust based on your navbar height */
+}
+
+@font-face {
+  font-family: tusker;
+  src: url(/font/TuskerGrotesk-2500Medium.woff);
+}
+
+.font-tusker{
+  font-family: tusker;
+}
+
+.fade-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .bg-transparent {
+    background-color: transparent;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+
+  .bg-black {
+    background-color: black;
+    opacity: 0;
+    animation: fadeBg 0.5s forwards;
+  }
+  @keyframes fadeBg {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .hidden{
+    visibility:hidden;
+  }
+
+  .second-work{
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 128px;
+  }
